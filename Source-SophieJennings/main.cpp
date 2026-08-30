@@ -44,6 +44,8 @@ EColour getColourFromSlot(int slotValue);
 
 int main() {
 
+	SetConsoleTitle(TEXT("Sophie's Slot Casino"));
+
 	setRgb(COLOUR_PURPLE_ON_BLACK);
 	std::cout << "****************************************" << std::endl << std::endl;
 	std::cout << "    Welcome to Sophie's Slot Casino!    " << std::endl << std::endl;
@@ -181,7 +183,7 @@ int main() {
 						break;
 					}
 					else if (slot1 == slot2 || slot2 == slot3 || slot1 == slot3) { // Any two slots match.
-						int winnings = playerBet * 2; // Player wins 2 times their bet.
+						int winnings = playerBet * 3; // Player wins 3 times their bet.
 						playerChips += winnings;
 						setRgb(COLOUR_GREEN_ON_BLACK);
 						std::cout << "Congratulations! You won " << winnings << " chips!" << std::endl << std::endl;
