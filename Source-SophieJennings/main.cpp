@@ -3,7 +3,7 @@ Bachelor of Information Technology
 Media Design School at Strayer
 Auckland
 New Zealand
-(c) [Year] Media Design School
+(c) 2026 Media Design School
 
 File Name : main.cpp
 Description : Main entry point for the Slot Machine game.
